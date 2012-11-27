@@ -21,9 +21,9 @@ That's it. Think...
 
 ##Contact
 
-* @Luigi_Colucci on twitter
+* <link>@Luigi_Colucci</link> on twitter
 * luigicolucci.mail@gmail.com
-* 
+
 ##Licence
 
 Copyright (c) 2012 Luigi Colucci - CitySocialising
