@@ -19,10 +19,10 @@
 		CEDAFBF7166126B700D4BC09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAFBF6166126B700D4BC09 /* ViewController.m */; };
 		CEDAFC2C16612B5A00D4BC09 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAFC2B16612B5A00D4BC09 /* AddressBook.framework */; };
 		CEDAFC2E16612B6600D4BC09 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAFC2D16612B6600D4BC09 /* MessageUI.framework */; };
-		CEF8007B166440420089A81C /* CSAddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF80076166440420089A81C /* CSAddressBookUI.framework */; };
-		CEF8007C166440420089A81C /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF80078166440420089A81C /* checked.png */; };
-		CEF8007D166440420089A81C /* CSABContactsViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = CEF80079166440420089A81C /* CSABContactsViewController.nib */; };
-		CEF8007E166440420089A81C /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF8007A166440420089A81C /* unchecked.png */; };
+		CEF8008F166447E70089A81C /* CSAddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8008A166447E70089A81C /* CSAddressBookUI.framework */; };
+		CEF80090166447E70089A81C /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF8008C166447E70089A81C /* checked.png */; };
+		CEF80091166447E70089A81C /* CSABContactsViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = CEF8008D166447E70089A81C /* CSABContactsViewController.nib */; };
+		CEF80092166447E70089A81C /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF8008E166447E70089A81C /* unchecked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +43,10 @@
 		CEDAFBF6166126B700D4BC09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEDAFC2B16612B5A00D4BC09 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		CEDAFC2D16612B6600D4BC09 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		CEF80076166440420089A81C /* CSAddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSAddressBookUI.framework; sourceTree = "<group>"; };
-		CEF80078166440420089A81C /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		CEF80079166440420089A81C /* CSABContactsViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = CSABContactsViewController.nib; sourceTree = "<group>"; };
-		CEF8007A166440420089A81C /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		CEF8008A166447E70089A81C /* CSAddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSAddressBookUI.framework; sourceTree = "<group>"; };
+		CEF8008C166447E70089A81C /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		CEF8008D166447E70089A81C /* CSABContactsViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = CSABContactsViewController.nib; sourceTree = "<group>"; };
+		CEF8008E166447E70089A81C /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				CEDAFBDE166126B700D4BC09 /* UIKit.framework in Frameworks */,
 				CEDAFBE0166126B700D4BC09 /* Foundation.framework in Frameworks */,
 				CEDAFBE2166126B700D4BC09 /* CoreGraphics.framework in Frameworks */,
-				CEF8007B166440420089A81C /* CSAddressBookUI.framework in Frameworks */,
+				CEF8008F166447E70089A81C /* CSAddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		CEDAFBCE166126B700D4BC09 = {
 			isa = PBXGroup;
 			children = (
-				CEDAFBE3166126B700D4BC09 /* Test */,
+				CEDAFBE3166126B700D4BC09 /* Classes */,
 				CEDAFBDC166126B700D4BC09 /* Frameworks */,
 				CEDAFBDA166126B700D4BC09 /* Products */,
 			);
@@ -86,7 +86,7 @@
 		CEDAFBDC166126B700D4BC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEF80075166440420089A81C /* CSAddressBookUI.embeddedframework */,
+				CEF80089166447E70089A81C /* CSAddressBookUI.embeddedframework */,
 				CEDAFC2D16612B6600D4BC09 /* MessageUI.framework */,
 				CEDAFC2B16612B5A00D4BC09 /* AddressBook.framework */,
 				CEDAFBDD166126B700D4BC09 /* UIKit.framework */,
@@ -96,7 +96,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEDAFBE3166126B700D4BC09 /* Test */ = {
+		CEDAFBE3166126B700D4BC09 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				CEDAFBEC166126B700D4BC09 /* AppDelegate.h */,
@@ -105,6 +105,7 @@
 				CEDAFBF6166126B700D4BC09 /* ViewController.m */,
 				CEDAFBE4166126B700D4BC09 /* Supporting Files */,
 			);
+			name = Classes;
 			path = Test;
 			sourceTree = "<group>";
 		};
@@ -122,21 +123,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CEF80075166440420089A81C /* CSAddressBookUI.embeddedframework */ = {
+		CEF80089166447E70089A81C /* CSAddressBookUI.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				CEF80076166440420089A81C /* CSAddressBookUI.framework */,
-				CEF80077166440420089A81C /* Resources */,
+				CEF8008A166447E70089A81C /* CSAddressBookUI.framework */,
+				CEF8008B166447E70089A81C /* Resources */,
 			);
 			path = CSAddressBookUI.embeddedframework;
 			sourceTree = "<group>";
 		};
-		CEF80077166440420089A81C /* Resources */ = {
+		CEF8008B166447E70089A81C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CEF80078166440420089A81C /* checked.png */,
-				CEF80079166440420089A81C /* CSABContactsViewController.nib */,
-				CEF8007A166440420089A81C /* unchecked.png */,
+				CEF8008C166447E70089A81C /* checked.png */,
+				CEF8008D166447E70089A81C /* CSABContactsViewController.nib */,
+				CEF8008E166447E70089A81C /* unchecked.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,9 +197,9 @@
 				CEDAFBF0166126B700D4BC09 /* Default.png in Resources */,
 				CEDAFBF2166126B700D4BC09 /* Default@2x.png in Resources */,
 				CEDAFBF4166126B700D4BC09 /* Default-568h@2x.png in Resources */,
-				CEF8007C166440420089A81C /* checked.png in Resources */,
-				CEF8007D166440420089A81C /* CSABContactsViewController.nib in Resources */,
-				CEF8007E166440420089A81C /* unchecked.png in Resources */,
+				CEF80090166447E70089A81C /* checked.png in Resources */,
+				CEF80091166447E70089A81C /* CSABContactsViewController.nib in Resources */,
+				CEF80092166447E70089A81C /* unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

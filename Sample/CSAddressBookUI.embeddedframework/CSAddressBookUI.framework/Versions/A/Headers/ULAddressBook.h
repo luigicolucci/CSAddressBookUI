@@ -10,7 +10,7 @@
 #import <AddressBook/AddressBook.h>
 
 typedef enum {
-    ULABContactPhone,
+    ULABContactPhone = 0,
     ULABContactEmail
 }ULABContactType;
 

@@ -11,23 +11,45 @@
 
 @interface ViewController ()
 
+- (void)presentMailController;
+- (void)presentSMSController;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)loadView
 {
-    [super viewDidLoad];
+    [super loadView];
+    
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.title = @"Multiple AB Selection";
+    
+    UIButton *mailButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [mailButton setTitle:@"Send E-mail" forState:UIControlStateNormal];
+    [mailButton setFrame:CGRectMake(60., 100., 200., 44.)];
+    [mailButton addTarget:self action:@selector(presentMailController) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:mailButton];
+    
+    UIButton *smsButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [smsButton setTitle:@"Send SMS" forState:UIControlStateNormal];
+    [smsButton setFrame:CGRectMake(60., 200., 200., 44.)];
+    [smsButton addTarget:self action:@selector(presentSMSController) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:smsButton];
+}
+
+- (void)presentMailController{
+    
     CSPeoplePickerNavigationController *controller = [[CSPeoplePickerNavigationController alloc] initWithType:ULABContactEmail];
     controller.messageBody = @"This is a test";
     [self presentModalViewController:controller animated:YES];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)presentSMSController{
+    
+    CSPeoplePickerNavigationController *controller = [[CSPeoplePickerNavigationController alloc] initWithType:ULABContactPhone];
+    controller.messageBody = @"This is a test";
+    [self presentModalViewController:controller animated:YES];
 }
 
 @end
