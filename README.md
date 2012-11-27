@@ -23,9 +23,10 @@ You can find a pretty simple Sample code to follow. Just drag and drop the CSAdd
             CSPeoplePickerNavigationController *controller = [[CSPeoplePickerNavigationController alloc] initWithType:ULABContactPhone];
             controller.messageBody = @"This is a test";
             [self presentModalViewController:controller animated:YES];
-            
-## Comments
+   
 NOTE: please don't forget to add MessageUI.framework and AddressBook.framework as well to your project.
+
+## Comments
 
 I'm planning to provide some other further changes and customizable stuff. Will do in a bit.
 Please let me know if you can find any kind of suggestions or issue to report.
