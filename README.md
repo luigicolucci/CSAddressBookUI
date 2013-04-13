@@ -13,6 +13,9 @@ Min iOS allowed: 5.0.
 ##Usage
 You can find a pretty simple Sample code to follow. Just drag and drop the CSAddressBookUI framework on your project and present the Nav controller.
 
+NOTE: Since some people asked me to add some more customizable stuff, in the sample code you can find the all files building the framework.
+This should give you full control of the project editing and optimizing everything according to your needs. Hope this help.
+
 ###E-mail
 
             CSPeoplePickerNavigationController *controller = [[CSPeoplePickerNavigationController alloc] initWithType:ULABContactEmail];
